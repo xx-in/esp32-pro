@@ -1,4 +1,22 @@
-# 实验设置
+## 创建环境
+```sh
+uv venv
+```
+
+## 安装依赖
+
+`mpremote` 是一个控制工具，可以操作基于 `micropython` 的单片机。
+
+```sh
+uv add mpremote
+```
+
+## 启动命令
+```
+mpremote run [name].py
+```
+
+## 实验内容
 
 - 01.py 开灯
 - 02.py 单灯闪烁
