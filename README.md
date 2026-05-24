@@ -30,3 +30,14 @@ mpremote run [name].py
 - 10.py 直流电机控制
 - 11.py 定时器中断
 - 12.py pwm调光
+- 13.py rgb灯爆闪
+- 14.py 关闭灯
+- 15.py 连接wifi后显示时间
+
+
+## 注意事项
+
+- mpremote 在windows中对中文支持很差
+- ds1302芯片供电需要是5v，但默认接的3.3v基本读不到有用数据
+- 对于wifi，连接后会自动重连
+- 对于芯片重置问题，按住boot键

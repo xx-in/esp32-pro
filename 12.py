@@ -1,8 +1,7 @@
 from machine import Pin, PWM
 import time
 
-# 1. 初始化引脚 15 为 PWM 输出
-# 注意：在 MicroPython 中，直接将 Pin 对象传给 PWM 初始化
+# 1. 初始化引脚 15 为 PWM 输出 ，注意15号线要连接ws接口
 pwm_pin = Pin(15, Pin.OUT)
 led_pwm = PWM(pwm_pin)
 
